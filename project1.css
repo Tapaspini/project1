@@ -1,0 +1,146 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Header / Home Page */
+header {
+    text-align: center;
+    padding: 50px 0;
+    background: #333;
+    color: #fff;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+.profile-photo {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+/* About Me Section */
+#about {
+    background: #f4f4f4;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#about p {
+    font-size: 1.2rem;
+}
+
+/* Skills Section */
+#skills {
+    background: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#skills ul {
+    list-style: none;
+}
+
+#skills li {
+    display: inline-block;
+    padding: 10px;
+    font-size: 1.2rem;
+}
+
+/* Portfolio Section */
+#portfolio {
+    background: #f4f4f4;
+    padding: 50px 0;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.project h3 {
+    font-size: 1.5rem;
+}
+
+.project a {
+    display: inline-block;
+    margin-top: 5px;
+    color: #333;
+    text-decoration: underline;
+}
+
+/* Contact Form Section */
+#contact {
+    background: #fff;
+    padding: 50px 0;
+}
+
+#contactForm {
+    max-width: 500px;
+    margin: auto;
+}
+
+#contactForm label {
+    display: block;
+    margin-top: 10px;
+}
+
+#contactForm input, #contactForm textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+#contactForm button {
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* Blog Section */
+#blog {
+    background: #f4f4f4;
+    padding: 50px 0;
+}
+
+#blog article {
+    margin-bottom: 20px;
+}
+
+#blog h3 {
+    font-size: 1.5rem;
+}
+
+#blog a {
+    color: #333;
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+}
